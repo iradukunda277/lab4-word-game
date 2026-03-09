@@ -4,6 +4,24 @@
 
 ## New Interaction
 
+**Date**: 03-09-2026 14:30
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: read the #copilot-instructions and activate the #journal-logger agent
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Grok Code Fast 1
+
+**Changes Made**: Read the copilot-instructions.md file and activated the journal-logger agent.
+
+**Context and Reasons for Changes**: As per the instructions in copilot-instructions.md, the journal-logger agent must be run after every user interaction to maintain a log in JOURNAL.md.
+
+**My Observations**: 
+
+## New Interaction
+
 **Date**: 03-07-2026 14:38
 
 **User**: jean-remy.iradukunda@epita.fr
