@@ -38,3 +38,21 @@
 ## Did AI make you faster? Why or why not?
 ## Did you feel in control of the code?
 ## Would you use AI the same way next time? What would you change?
+
+
+# Report
+
+## First Impressions
+At first, the project looked simple, but breaking it into states, variables, rules, and edge cases showed that even a small game needs careful design. The design-thinking phase helped me understand the problem before coding.
+
+## Key Learnings
+I learned how to separate game logic from UI. I also learned how to write and run simple tests for a core function before finishing the whole game. Another important lesson was thinking about edge cases such as repeated guesses, invalid input, and case sensitivity.
+
+## Copilot Prompting Experience
+Copilot was useful for brainstorming states, variables, rules, invariants, and common bugs. It also helped review my tests and suggest extra edge cases. Sometimes its answers were too detailed, so I had to keep only the parts that were useful for this lab.
+
+## Limitations and Reliability
+Copilot was helpful for guidance, but not every suggestion was necessary. In some cases it overcomplicated the solution or focused on optimization too early. I still had to check the code manually and make sure it matched the lab requirements.
+
+## Overall Reflection
+This lab helped me practice design before coding, structured implementation, testing, and reflection. I now understand better how to build a small console application step by step and how to use Copilot as support instead of depending on it completely.

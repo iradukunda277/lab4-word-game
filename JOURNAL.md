@@ -2,6 +2,16 @@
 
 ---
 
+### **New Interaction**
+- **Date**: 03-10-2026 21:07
+- **User**: jean-remy.iradukunda@epita.fr
+- **Prompt**: Update the journal with the latest work: the full playable word game now runs correctly, replay works, repeated guesses are handled, README.md was updated, and REPORT.md was completed.
+- **CoPilot Mode**: Ask
+- **CoPilot Model**: Grok Code Fast 1
+- **Changes Made**: None - this is a journal update request.
+- **Context and Reasons for Changes**: User reporting successful completion of the full word game implementation. All core features now working: playable game, replay functionality, repeated guess handling, updated documentation (README.md), and completed lab report (REPORT.md).
+- **My Observations**: Project milestone achieved - full Hangman-like word game is now functional with proper error handling and user experience features.
+
 ## New Interaction
 
 **Date**: 03-10-2026 15:15

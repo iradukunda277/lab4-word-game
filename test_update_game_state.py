@@ -32,18 +32,6 @@ def test_original_guessed_letters_is_not_mutated() -> None:
     assert guessed_letters == ["a"]
 
 
-def run_all_tests() -> None:
-    test_correct_guess_adds_letter_and_keeps_lives()
-    test_wrong_guess_adds_letter_and_decreases_lives()
-    test_repeated_guess_does_not_duplicate_letter()
-    test_original_guessed_letters_is_not_mutated()
-    print("All tests passed.")
-
-
-if __name__ == "__main__":
-    run_all_tests()
-
-
 def test_uppercase_guess_is_normalized() -> None:
     guessed_letters = []
     new_letters, new_lives = update_game_state("apple", guessed_letters, "A", 6)
@@ -58,3 +46,17 @@ def test_mixed_case_secret_word_still_works() -> None:
 
     assert new_letters == ["a"]
     assert new_lives == 6
+
+
+def run_all_tests() -> None:
+    test_correct_guess_adds_letter_and_keeps_lives()
+    test_wrong_guess_adds_letter_and_decreases_lives()
+    test_repeated_guess_does_not_duplicate_letter()
+    test_original_guessed_letters_is_not_mutated()
+    test_uppercase_guess_is_normalized()
+    test_mixed_case_secret_word_still_works()
+    print("All tests passed.")
+
+
+if __name__ == "__main__":
+    run_all_tests()
