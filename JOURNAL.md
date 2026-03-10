@@ -4,6 +4,166 @@
 
 ## New Interaction
 
+**Date**: 03-10-2026 15:15
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: Update documentation and testing deliverables for word game project
+
+**CoPilot Mode**: Plan
+
+**CoPilot Model**: Claude Haiku 4.5
+
+**Changes Made**: 
+- test_update_game_state.py: Ran all tests successfully (all passed)
+  - Tests cover: correct guess adds letter with kept lives
+  - Tests cover: wrong guess adds letter with decremented lives
+  - Tests cover: repeated guess prevents duplication
+  - Tests cover: guessed_letters input is not mutated
+  - Tests cover: uppercase guess is normalized to lowercase
+- README.md: Created/updated with project documentation
+  - Added short project description
+  - Added instructions to run the game
+  - Added instructions to run the tests
+- REPORT.md: In progress for lab reflection/testing section
+  - Test implementation complete
+  - README updates complete
+  - REPORT.md reflection section in progress
+
+**Context and Reasons for Changes**: Completed test suite validation ensuring update_game_state function works correctly across core cases and edge cases (normalization). Documented project setup and usage for clarity. Preparing lab report documenting testing strategy and findings.
+
+**My Observations**: Test coverage now includes the edge case (uppercase normalization) from earlier code review discussion. All tests passing indicates function implements designed behavior correctly.
+
+## New Interaction
+
+**Date**: 03-10-2026 13:44
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: review tests for update_game_state and suggest missing edge cases
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Grok Code Fast 1
+
+**Changes Made**: No code changes made.
+
+**Context and Reasons for Changes**: User testing their update_game_state function implementation; provided comprehensive edge case suggestions to improve test coverage.
+
+**My Observations**: 
+
+## New Interaction
+
+**Date**: 03-10-2026 13:27
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: Log this interaction: User asked to review tests for update_game_state and suggest missing edge cases. I reviewed the test file, identified covered cases, and suggested additional edge case tests. Mode: Ask. No code changes made.
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Grok Code Fast 1
+
+**Changes Made**: No code changes made.
+
+**Context and Reasons for Changes**: User asked to review tests for update_game_state and suggest missing edge cases. I reviewed the test file, identified covered cases, and suggested additional edge case tests.
+
+**My Observations**: 
+
+## New Interaction
+
+**Date**: 03-10-2026 14:45
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: Update the journal with the recent interactions
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Claude Haiku 4.5
+
+**Changes Made**: Prepended 5 new interaction entries to JOURNAL.md for 03-10-2026
+
+**Context and Reasons for Changes**: Following up after comprehensive design discussions about Hangman game implementation. User requested journal update to log all interactions from design phase.
+
+**My Observations**: 
+
+## New Interaction
+
+**Date**: 03-10-2026 14:30
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: What are possible bugs in Word Guess / Hangman implementations?
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Claude Haiku 4.5
+
+**Changes Made**: None
+
+**Context and Reasons for Changes**: Part of design thinking phase; user consulting on edge cases and common pitfalls. Provided comprehensive bug taxonomy organized by category (input validation, display, logic, state machine, data structures, initialization, and flow).
+
+**My Observations**: 
+
+## New Interaction
+
+**Date**: 03-10-2026 14:15
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: What are the rules and invariants?
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Claude Haiku 4.5
+
+**Changes Made**: None
+
+**Context and Reasons for Changes**: User filling out MY_NOTES.md section on rules and invariants. Provided detailed breakdown of game mechanics rules and invariant conditions that must always hold true.
+
+**My Observations**: 
+
+## New Interaction
+
+**Date**: 03-10-2026 14:00
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: What variables should I keep track of?
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Claude Haiku 4.5
+
+**Changes Made**: None
+
+**Context and Reasons for Changes**: User designing data structures for Hangman game; building on initial state design. Provided variable taxonomy with essential vs derived variables; explained why to use set for guessed_letters.
+
+**My Observations**: 
+
+## New Interaction
+
+**Date**: 03-10-2026 13:45
+
+**User**: jean-remy.iradukunda@epita.fr
+
+**Prompt**: What states does a Word Game like Hangman game need?
+
+**CoPilot Mode**: Ask
+
+**CoPilot Model**: Claude Haiku 4.5
+
+**Changes Made**: None
+
+**Context and Reasons for Changes**: Start of session; user working through design thinking for Hangman-like word game. User had already identified core states; provided additional perspective on state transitions and between-round handling.
+
+**My Observations**: 
+
+---
+
+## New Interaction
+
 **Date**: 03-09-2026 14:42
 
 **User**: jean-remy.iradukunda@epita.fr
