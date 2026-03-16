@@ -102,3 +102,27 @@
 - It was a bit over-detailed because it added implementation examples and extra edge-case discussion, but the core rules were still helpful.
 - Copilot gave many possible bugs and edge cases, which was useful for thinking about testing.
 - It was slightly over-detailed because it included implementation-level examples, but the common bug list was still very helpful.
+# Auto Play Mode Notes
+
+## Initial analysis
+- The game now needs two modes: manual mode and auto mode.
+- In auto mode, the computer should guess letters automatically.
+- The auto player must never repeat a guessed letter.
+- After an auto game ends, the program should go back to the mode-selection menu.
+
+## Design decisions
+- Reuse the same game logic functions for both manual and auto modes.
+- Keep logic separate from UI.
+- Store auto-player guesses in the same guessed_letters list.
+- Use a fixed alphabet list for the auto player to choose from.
+
+## Questions
+- Should the auto player guess randomly or in alphabetical order?
+- Should the game display each automatic guess on screen?
+- Should replay ask again for mode selection every time?
+
+## Auto Play Mode
+- Added two modes: manual and auto.
+- In auto mode, the computer guesses letters automatically.
+- The auto player uses the alphabet and never repeats a guessed letter.
+- After an auto round ends, the game asks again whether the user wants to play.

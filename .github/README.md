@@ -28,3 +28,6 @@ python .\main.py
 ## How to run the game
 ```bash
 python .\main.py
+
+- manual mode
+- auto play mode where the computer guesses letters automatically
